@@ -1,0 +1,12 @@
+[submodule "submodules/fakeOwl"]
+	path = submodules/fakeOwl
+	url = https://github.com/szellmann/fakeOwl
+[submodule "submodules/icet"]
+	path = submodules/icet
+	url = https://gitlab.kitware.com/icet/icet.git
+[submodule "submodules/miniScene"]
+	path = submodules/miniScene
+	url = https://github.com/ingowald/miniScene
+[submodule "submodules/owl"]
+	path = submodules/owl
+	url = https://github.com/owl-project/owl
