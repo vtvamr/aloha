@@ -13,6 +13,10 @@ using namespace owl::common;
 
 typedef owl::interval<float> range1f;
 
+#ifdef __CUDA_ARCH__
+inline __both__ float saturate(const float &f) { return __saturatef(f); }
+#endif
+
 namespace maui {
   struct RayGen {
   };
